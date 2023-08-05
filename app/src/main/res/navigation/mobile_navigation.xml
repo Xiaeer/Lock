@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.xiaeer.lock.ui.fragment.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_lock"
+        android:name="com.xiaeer.lock.ui.fragment.LockFragment"
+        tools:layout="@layout/fragment_lock">
+        <action
+            android:id="@+id/action_lock_to_add_lock_task_fragment"
+            app:destination="@id/add_lock_task_fragment" />
+        <action
+            android:id="@+id/action_lock_to_edit_lock_task_fragment"
+            app:destination="@id/edit_lock_task_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/add_lock_task_fragment"
+        android:name="com.xiaeer.lock.ui.fragment.AddLockTaskFragment"
+        tools:layout="@layout/fragment_add_lock_task" />
+
+    <fragment
+        android:id="@+id/edit_lock_task_fragment"
+        android:name="com.xiaeer.lock.ui.fragment.EditLockTaskFragment"
+        tools:layout="@layout/fragment_edit_lock_task" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.xiaeer.lock.ui.fragment.SettingsFragment"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

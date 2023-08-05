@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Lock</string>
+    <string name="tips">你的自我提升助手</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">主页</string>
+    <string name="title_lock">锁机</string>
+    <string name="title_settings">设置</string>
+    <string name="channel_name_keep_running">服务保持运行中</string>
+    <string name="channel_description_keep_running">保持运行</string>
+    <string name="notification_keep_running_title">Lock后台运行中</string>
+    <string name="calm_down_end_text">冷静结束</string>
+    <string name="add_lock_tasker">锁机任务</string>
+    <string name="text_view_from">开始</string>
+    <string name="start_time_edittext_hint">开始时间</string>
+    <string name="text_view_to">结束</string>
+    <string name="end_time_edit_text_hint">结束时间</string>
+    <string name="btn_back_text">取消</string>
+    <string name="btn_add_text">添加</string>
+    <string name="btn_save_text">保存</string>
+    <string name="content_description_add_lock_task">添加锁机任务</string>
+</resources>

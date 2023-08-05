@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Lock" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#26a7e6</item>
+        <item name="colorPrimaryDark">#26a7e6</item>
+        <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowToggle</item>
+    </style>
+</resources>

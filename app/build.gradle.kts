@@ -58,10 +58,10 @@ dependencies {
 
     /***************************************  brv全家桶  ******************************************/
     implementation("com.github.liangjingkanji:StatusBar:2.0.5")
-    implementation("com.github.liangjingkanji:Tooltip:1.2.2")
+    implementation("com.github.liangjingkanji:Tooltip:1.2.3")
     implementation("com.github.liangjingkanji:Serialize:1.2.3")
     // BRV, 支持自动下拉刷新和缺省页的(可选)
-    implementation("com.github.liangjingkanji:BRV:1.4.3")
+    implementation("com.github.liangjingkanji:BRV:1.5.2")
     /***************************************  brv全家桶  ******************************************/
 
     /***************************************  日志  *******************************************/

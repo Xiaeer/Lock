@@ -138,8 +138,7 @@ class LockService : Service() {
             .setContentTitle(getString(R.string.notification_keep_running_title))
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
         createNotificationChannel()
-
-        startForeground(NOTIFICATION_ID, builder.build());
+        startForeground(NOTIFICATION_ID, builder.build())
 
         // 注册广播
         registerBroadCast()
